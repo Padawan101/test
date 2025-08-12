@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "lib1.c"
-#include "lib2.c"
+#include "../lib/lib1.h"
+#include "../lib/lib2.h"
 
 int main(){
 	fun1();
